@@ -1,0 +1,45 @@
+To run a command as administrator (user "root"), use "sudo <command>".
+See "man sudo_root" for details.
+
+mohalhal@ubuntu:~/Desktop$ #!/bin/bash
+mohalhal@ubuntu:~/Desktop$ echo "enter number of sec"
+enter number of sec
+mohalhal@ubuntu:~/Desktop$ read sec1
+h=$(expr $sec/3600)
+mohalhal@ubuntu:~/Desktop$ y=
+mohalhal@ubuntu:~/Desktop$ h=$(expr $sec/3600)
+mohalhal@ubuntu:~/Desktop$ h=$(expr $sec/3600)
+mohalhal@ubuntu:~/Desktop$ y= $( expr $sec%3600)
+bash: fg: %3600: no such job
+mohalhal@ubuntu:~/Desktop$ min= $( expr $sec/36)
+bash: /36: No such file or directory
+mohalhal@ubuntu:~/Desktop$ min= $( expr $y/36)
+bash: /36: No such file or directory
+mohalhal@ubuntu:~/Desktop$ sec= $( expr $y%36)
+bash: fg: %36: no such job
+mohalhal@ubuntu:~/Desktop$ 
+mohalhal@ubuntu:~/Desktop$ #!/bin/bash
+mohalhal@ubuntu:~/Desktop$ echo "enter a temp in degree celslus"
+enter a temp in degree celslus
+mohalhal@ubuntu:~/Desktop$ read deg
+fer=$(exper $deg \*9/5+32)
+mohalhal@ubuntu:~/Desktop$ echo${fer}
+
+mohalhal@ubuntu:~/Desktop$ #!/bin/bash
+mohalhal@ubuntu:~/Desktop$ echo "enter your gross salary "
+enter your gross salary 
+mohalhal@ubuntu:~/Desktop$ read sel
+if "sal -ge 1000 & "sel" -le 2000]^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^                                                            
+mohalhal@ubuntu:~/Desktop$ if "sal -ge 1000 & "sel" -le 2000]
+> if ["sal -ge 1000 & "sel" -le 2000];then
+> sel2 $sel -sel\*10 /100)
+bash: syntax error near unexpected token `)'
+mohalhal@ubuntu:~/Desktop$ echo "your salary after tax :$sel2"
+your salary after tax :
+mohalhal@ubuntu:~/Desktop$ else
+bash: syntax error near unexpected token `else'
+mohalhal@ubuntu:~/Desktop$ echo "no tax"
+no tax
+mohalhal@ubuntu:~/Desktop$ fi
+bash: syntax error near unexpected token `fi'
+mohalhal@ubuntu:~/Desktop$ 
